@@ -1,0 +1,285 @@
+.color-navbar {
+  background-color: #be1355;
+}
+
+.navlink-head {
+  color: #ffffff;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+.navlink-set {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.color-container {
+  color: #ffffff !important;
+}
+
+.under-nav {
+  padding-top: 60px;
+
+}
+
+.banner-images {
+  max-height: 600px;
+  min-width: 1500px;
+}
+
+.cuisines-text {
+  font-size: 20px;
+  font-family: sans-serif;
+  position: relative;
+  display: block;
+  margin-left: auto;
+}
+
+.cuisines-links {
+  text-decoration: none;
+  color: rgb(31, 31, 31);
+}
+
+.cuisines-links:hover {
+  text-decoration: none;
+  color: rgb(31, 31, 31);
+}
+
+.cuisines-img {
+  border-radius: 50% !important;
+  object-fit: cover;
+  object-position: center;
+  position: relative;
+  background-size: contain;
+}
+
+.cuisines-padding {
+  padding-top: 20px;
+  margin-left: 15%;
+  background-size: cover;
+  background-position: center;
+  min-width: 1300px;
+}
+
+.see-restaurants {
+  font-size: 20px;
+  float: right;
+  margin-right: 35%;
+  color: #be1355;
+  text-decoration: none;
+}
+
+.see-restaurants:hover {
+  color: #be1355;
+  text-decoration: none;
+}
+
+.restaurants-images {
+  max-width: 90%;
+  position: relative;
+  border-radius: 50px;
+  -webkit-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2), 6px 6px 10px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2), 3px 3px 15px 10px rgba(0, 0, 0, 0.3);
+}
+
+.restaurants-images:hover {
+  max-width: 100%;
+}
+
+.restaurants-box {
+  margin-left: 10%;
+  margin-top: 10px;
+  background: #fff;
+  border: 2px solid #e6e6e6;
+  padding: 35px 20px;
+  border-radius: 50px;
+  text-align: center;
+  -webkit-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2), 6px 6px 10px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2), 3px 3px 15px 10px rgba(0, 0, 0, 0.3);
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.restaurants-box:hover {
+  color: #be1355;
+  text-decoration: none;
+}
+
+.restaurants-name {
+  text-align: center;
+  font-size: 36px;
+  font-family: sans-serif;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+
+.restaurants-name:hover {
+  color: #be1355;
+}
+
+.restaurants-cuisines-name {
+  text-align: center;
+  font-size: 25px;
+  font-family: sans-serif;
+  color: #000;
+}
+
+.restaurants-cuisines-address {
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: rgb(77, 74, 74);
+}
+
+.restaurants-cuisines-name:hover {
+  color: #be1355;
+}
+
+.restaurants-id {
+  display: none;
+}
+
+.flex-parent {
+  flex-wrap: wrap;
+  float: left;
+  margin-left: 5%;
+}
+
+.cuisine-menu {
+  float: left;
+  margin-left: 30px;
+
+}
+
+
+.food-images {
+  max-width: 80%;
+  position: relative;
+  border-radius: 50px;
+  -webkit-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2), 6px 6px 10px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2), 3px 3px 15px 10px rgba(0, 0, 0, 0.3);
+}
+
+.food-plus-button {
+  background-color: #be1355;
+  float: right;
+  margin-right: 20px;
+  font-size: 18px;
+  width: 10%;
+  text-align: center;
+  border-color: #fff;
+  border-radius: 50px;
+}
+
+.food-plus-button:hover {
+  background-color: #13e9de;
+  border-color: #fff;
+}
+
+.food-plus-button:focus {
+  background-color: #13e9de;
+  border-color: #fff;
+
+}
+
+.food-negative-button {
+  background-color: #be1355;
+  float: right;
+  margin-right: 20px;
+  margin-top: -36px;
+  width: 10%;
+  font-size: 18px;
+  text-align: center;
+  border-color: #fff;
+  border-radius: 50px;
+}
+
+.food-negative-button:hover {
+  background-color: #13e9de;
+  border-color: #fff;
+}
+
+.food-negative-button:focus {
+  background-color: #13e9de;
+  border-color: #fff;
+}
+
+.food-count {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 7px;
+  font-family: sans-serif;
+  padding-left: 10%;
+  box-sizing: content-box;
+}
+
+.food-submit-button-container {
+  margin-top: 550px;
+  margin-left: 45%;
+  margin-right: auto;
+  display: block;
+
+}
+
+.food-submit-button {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 50px;
+  font-size: 16pt;
+  font-family: 'sans-serif';
+  display: block;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 100px;
+  background-color: rgb(0, 255, 170);
+  background-image: linear-gradient(to top left,
+      rgba(0, 0, 0, .2),
+      rgba(0, 0, 0, .2) 30%,
+      rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.food-submit-button:hover {
+  background-color: rgb(225, 250, 6);
+}
+
+.food-submit-button:focus {
+  background-color: rgb(225, 250, 6);
+  border-color: #fff;
+}
+
+.food-submit-button:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+    inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.orderhistory-table {
+  margin-left: 350px;
+  max-width: 1200px;
+  margin-top: 80px;
+}
+
+.orderhistory-header {
+  font-size: 50px;
+  font-family: sans-serif;
+  margin-left: 800px;
+  margin-top: 20px;
+}
+
+.orderlist-total {
+  float: right;
+  margin-right: 500px;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  text-decoration: underline;
+}
+
+.orderlist-hidetotal {
+  display: none;
+}
